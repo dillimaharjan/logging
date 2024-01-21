@@ -3,5 +3,5 @@ package logging
 import "fmt"
 
 func LogMe(msg, msgtype string) {
-	fmt.Println(msgtype, ":", msg)
+	fmt.Printf("%s: %s",msgtype, msg)
 }
